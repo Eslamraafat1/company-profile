@@ -162,6 +162,8 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--art-orange);
+      margin-bottom: 33px;
+    margin-top: 20px;
 }
 
 .art-section-label-line {
@@ -769,7 +771,7 @@
 .art-trend-number {
   font-size: 48px;
   font-weight: 900;
-  color: rgba(17,17,17,0.06);
+      color: rgb(17 17 17 / 54%);
   line-height: 1;
   transition: color 0.3s, transform 0.3s;
   letter-spacing: -2px;
@@ -1138,73 +1140,6 @@
   color: var(--art-muted);
 }
 
-/* ================================================================
-   FOOTER OVERRIDES
-   ================================================================ */
-.footer-area {
-  background-color: #0c0c0c !important;
-  color: rgba(255, 255, 255, 0.7) !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.footer-area .footer-logo img {
-  filter: none !important;
-}
-
-.footer-area .info-text .text {
-  color: rgba(255, 255, 255, 0.6) !important;
-}
-
-.footer-area .info-link a {
-  color: #ffffff !important;
-  border-bottom-color: rgba(255,255,255,0.2) !important;
-}
-
-.footer-area .info-link a:hover {
-  color: var(--art-orange) !important;
-  border-bottom-color: var(--art-orange) !important;
-}
-
-.footer-area .footer-widget-box .title {
-  color: #ffffff !important;
-}
-
-.footer-area .footer-nav-list li a {
-  color: rgba(255, 255, 255, 0.6) !important;
-}
-
-.footer-area .footer-nav-list li a:hover {
-  color: var(--art-orange) !important;
-}
-
-.footer-area .subscribe-form .input-field {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
-}
-
-.footer-area .subscribe-form .input-field input {
-  color: #ffffff !important;
-}
-
-.footer-area .subscribe-form .input-field input::placeholder {
-  color: rgba(255, 255, 255, 0.4) !important;
-}
-
-.footer-area .copyright-area {
-  border-top-color: rgba(255, 255, 255, 0.05) !important;
-}
-
-.footer-area .copyright-text .text {
-  color: rgba(255, 255, 255, 0.4) !important;
-}
-
-.footer-area .copyright-text .text a {
-  color: #ffffff !important;
-}
-
-.footer-area .copyright-text .text a:hover {
-  color: var(--art-orange) !important;
-}
 
 /* ================================================================
    RESPONSIVE
