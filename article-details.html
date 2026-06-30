@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en" data-cursor="c1">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The future of design is invisible — how AI is reshaping the visual language of brands">
+
+  <title>The Future of Design is Invisible — Redox Articles</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/vendor/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/vendor/magnific-popup.css">
+  <link rel="stylesheet" href="assets/vendor/animate.min.css">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/style.css?v=1.0">
+
+  <!-- Article Page CSS -->
+  <link rel="stylesheet" href="assets/css/article.css?v=2.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body-wrapper body-page-inner font-heading-sequelsans-romanbody art-page">
+
+  <!-- custom-cursor -->
+  <div class="custom-cursor">
+    <img src="assets/imgs/cursor/cursor-2-xs.svg" alt="cursor" id="cursorImg">
+  </div>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+
+  <!-- Scroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+  <!-- side toggle start -->
+  <aside class="fix">
+    <div class="side-info">
+      <div class="side-info-content">
+        <div class="offset-widget offset-header">
+          <div class="offset-logo">
+            <a href="index.html">
+              <img src="assets/imgs/logo/logo-2.png" alt="site logo">
+            </a>
+          </div>
+          <button id="side-info-close" class="side-info-close">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="mobile-menu d-xl-none fix"></div>
+        <div class="offset-button">
+          <a href="contact.html" class="rr-btn hover-bg-theme">
+            <span class="btn-wrap">
+              <span class="text-one">Let's Talk</span>
+              <span class="text-two">Let's Talk</span>
+            </span>
+          </a>
+        </div>
+        <div class="offset-widget-box">
+          <h2 class="title">Contact US</h2>
+          <div class="contact-meta">
+            <div class="contact-item">
+              <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+              <span class="text">3891 Ranchview Dr. Richardson</span>
+            </div>
+            <div class="contact-item">
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <span class="text"><a href="mailto:hello@redoxagency.com">hello@redoxagency.com</a></span>
+            </div>
+            <div class="contact-item">
+              <span class="icon"><i class="fa-solid fa-phone"></i></span>
+              <span class="text"><a href="tel:(505)555-0125">(505) 555-0125</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="offcanvas-overlay"></div>
+  <!-- side toggle end -->
+
+  <!-- Header area start -->
+<header class="header-area">
+        <div class="header-main">
+            <div class="container large">
+                <div class="header-area__inner">
+                    <div class="header__logo">
+                        <a href="index.html">
+              <img src="assets/imgs/logo/logo.png" class="normal-logo" alt="Site Logo">
+            </a>
+                    </div>
+                    <div class="header__nav">
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="">
+                                    <a href="index.html">Home</a>
+                                    
+                                </li>
+                                <li><a href="about.html">About Us</a></li>
+                                 <li class="">
+                                    <a href="article.html">Article</a>
+                                 
+                                </li>
+                                <li class="">
+                                    <a href="service.html">Service</a>
+                                 
+                                </li>
+                                <li class="">
+                                    <a href="portfolio.html">Portfolio</a>
+                                 
+                                </li>
+                               
+                                <li class="">
+                                    <a href="blog.html">Blog</a>
+                                   
+                                </li>
+                             
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__button">
+                        <a href="contact.html" class="rr-btn hover-bg-theme">
+              <span class="btn-wrap">
+                <span class="text-one">Let’s Talk</span>
+                <span class="text-two">Let’s Talk</span>
+              </span>
+            </a>
+                    </div>
+                    <div class="header__navicon d-xl-none">
+                        <button class="side-toggle">
+              <i class="fa-solid fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  <!-- Header area end -->
+
+  <!-- Reading Progress Bar -->
+  <div class="art-reading-bar" id="artReadingBar"></div>
+
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <main>
+
+        <!-- ==================== ARTICLE DETAILS HEADER ==================== -->
+        <section class="art-det-header-section section-spacing-top" style="margin-top: 50px;">
+          <div class="container">
+            <div class="art-det-header-inner">
+
+              <!-- Breadcrumb -->
+              <nav class="art-breadcrumb art-reveal-up" aria-label="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="art-breadcrumb-sep">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </span>
+                <a href="article.html">Articles</a>
+                <span class="art-breadcrumb-sep">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </span>
+                <span class="art-breadcrumb-current">Article Details</span>
+              </nav>
+
+              <!-- Category Badge & Read Time -->
+              <div class="art-det-badge-meta art-reveal-up" style="--delay:0.1s">
+                <span class="art-det-cat">Design</span>
+                <span class="art-det-meta-sep">·</span>
+                <span class="art-det-readtime">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                  8 min read
+                </span>
+              </div>
+
+              <!-- Article Title -->
+              <h1 class="art-det-title art-reveal-up" style="--delay:0.2s">
+                The future of design is invisible — how AI is reshaping the visual language of brands
+              </h1>
+
+              <!-- Author details -->
+              <div class="art-det-author-bar art-reveal-up" style="--delay:0.3s">
+                <div class="art-det-author-info">
+                  <img src="assets/imgs/logo/favicon.png" alt="author" class="art-det-author-avatar">
+                  <div>
+                    <span class="art-det-author-name">Jerry Thompson</span>
+                    <span class="art-det-author-role">Creative Director, Redox</span>
+                  </div>
+                </div>
+                <div class="art-det-date">
+                  <span>Published:</span>
+                  <strong>June 28, 2026</strong>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- ==================== END HEADER ==================== -->
+
+        <!-- ==================== HERO IMAGE AREA ==================== -->
+        <section class="art-det-hero-section art-reveal-up" style="--delay:0.4s">
+          <div class="container large">
+            <div class="art-det-hero-wrapper">
+              <img src="assets/imgs/articles/article-card-1.png" alt="Hero Banner" class="art-det-hero-img">
+              <div class="art-det-hero-overlay"></div>
+            </div>
+          </div>
+        </section>
+        <!-- ==================== END HERO IMAGE ==================== -->
+
+        <!-- ==================== ARTICLE CONTENT ==================== -->
+        <section class="art-det-content-section">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+                <div class="art-det-content-inner art-reveal-up">
+
+                  <!-- Content Paragraphs -->
+                  <p class="art-dropcap">
+                    The digital landscape is shifting beneath our feet. For decades, design has been about what we can see: layouts, colors, visual assets, and interfaces. But as artificial intelligence becomes deeply integrated into the creative workflow, the traditional boundaries of branding are dissolving. The future of design isn't about creating more visual noise; it's about context, intelligence, and invisibility.
+                  </p>
+
+                  <p>
+                    As creative practitioners, we are transitioning from creators of fixed artifacts to curators of dynamic behaviors. AI tools are no longer just software assistants; they are becoming active partners capable of generating, analyzing, and adapting design systems in real-time. This shifts the focus from structural styling to behavioral experiences.
+                  </p>
+
+                  <!-- Sub Section 1 -->
+                  <div class="art-det-sub-section">
+                    <h3 class="art-det-sub-title">1. The Shift to Generative Branding</h3>
+                    <p>
+                      Traditional branding systems rely on consistency and static design guidelines. A brand manual defines the exact logo placement, specific color palettes, and strict typography rules. However, in an AI-powered ecosystem, static guidelines are too limiting. Brands are beginning to use generative identity systems that adapt automatically to the user's emotions, ambient context, and screen constraints.
+                    </p>
+                  </div>
+
+                  <!-- Pull Quote -->
+                  <blockquote class="art-pullquote">
+                    <div class="art-pullquote-quote">
+                      "Design is not just what it looks like and feels like. Design is how it works, and in the age of intelligence, it works by vanishing entirely into the context of the user."
+                    </div>
+                    <cite class="art-pullquote-author">— Jerry Thompson, Redox</cite>
+                  </blockquote>
+
+                  <!-- Sub Section 2 -->
+                  <div class="art-det-sub-section">
+                    <h3 class="art-det-sub-title">2. Context is the New Canvas</h3>
+                    <p>
+                      When the interface becomes invisible, the user's surrounding context becomes the primary canvas. Designers must now anticipate how a brand interacts with voice controllers, gesture interfaces, and augmented environments. The brand value is no longer communicating via a 2D screen button, but rather through tone of voice, response latency, and adaptive audio feedback.
+                    </p>
+                    <p>To succeed in this environment, design teams must prioritize:</p>
+                    <ul class="art-det-list">
+                      <li><span>✦</span> <strong>Emotion-first architecture:</strong> prioritizing sensory delight over raw screen elements.</li>
+                      <li><span>✦</span> <strong>Hyper-adaptability:</strong> building layouts that transform seamlessly based on real-time analytics.</li>
+                      <li><span>✦</span> <strong>Cognitive efficiency:</strong> minimizing visual strain to let user tasks complete faster.</li>
+                    </ul>
+                  </div>
+
+                  <!-- Inline Gallery Grid -->
+                  <div class="art-det-gallery art-reveal-up">
+                    <div class="row g-4">
+                      <div class="col-md-6">
+                        <div class="art-det-gallery-thumb">
+                          <img src="assets/imgs/articles/article-card-2.png" alt="Collaborative design" class="w-100">
+                          <span class="art-det-gallery-caption">Designing with interactive AI frameworks</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="art-det-gallery-thumb">
+                          <img src="assets/imgs/articles/article-card-3.webp" alt="Minimalist brand mockups" class="w-100">
+                          <span class="art-det-gallery-caption">Luxury branding mockups leveraging generative color systems</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Sub Section 3 -->
+                  <div class="art-det-sub-section">
+                    <h3 class="art-det-sub-title">3. The Designer as a Curator</h3>
+                    <p>
+                      Does this mean the death of human design? Absolutely not. It represents the elevation of the designer's role. Instead of spending hours adjusting pixel coordinates or exporting layout variations, designers are now curating parameters, defining constraints, and teaching AI engines how to express brand values. We are writing the algorithms of taste.
+                    </p>
+                    <p>
+                      Ultimately, the best designs have always been those that get out of the way. By automating the mechanical aspects of execution, AI is freeing designers to focus on what matters most: strategic thinking, authentic storytelling, and human empathy.
+                    </p>
+                  </div>
+
+                  <!-- Tags and Share -->
+                  <div class="art-det-footer">
+                    <div class="art-det-tags">
+                      <span class="art-tag">AI</span>
+                      <span class="art-tag">Design Thinking</span>
+                      <span class="art-tag">Branding</span>
+                      <span class="art-tag">UX Strategy</span>
+                    </div>
+                    <div class="art-det-share">
+                      <span>Share:</span>
+                      <a href="#" class="share-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="share-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="share-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+
+                  <!-- Author Bio Card -->
+                  <div class="art-author-card">
+                    <div class="art-author-card-avatar-wrap">
+                      <img src="assets/imgs/logo/favicon.png" alt="Jerry Thompson" class="art-author-card-avatar">
+                    </div>
+                    <div class="art-author-card-content">
+                      <h4 class="art-author-card-name">Jerry Thompson</h4>
+                      <p class="art-author-card-bio">
+                        Jerry is the Creative Director at Redox Agency. Over the past 12 years, he has led design teams in crafting digital brand identities and interface designs for Fortune 500 companies and fast-growing global startups.
+                      </p>
+                      <div class="art-author-card-socials">
+                        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                        <a href="#"><i class="fab fa-dribbble"></i> Dribbble</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==================== END CONTENT ==================== -->
+
+        <!-- ==================== COMMENTS SECTION ==================== -->
+        <section class="art-comments-section">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+                <div class="art-comments-wrapper art-reveal-up">
+                  <h3 class="art-comments-title">Responses <span class="art-accent">(2)</span></h3>
+                  
+                  <div class="art-comments-list">
+                    <!-- Comment 1 -->
+                    <div class="art-comment-item">
+                      <img src="assets/imgs/logo/favicon.png" alt="User" class="art-comment-avatar">
+                      <div class="art-comment-content">
+                        <div class="art-comment-header">
+                          <h4 class="art-comment-name">David Wallace</h4>
+                          <span class="art-comment-date">2 hours ago</span>
+                        </div>
+                        <p class="art-comment-text">This is incredibly insightful. The shift from structural styling to behavioral experiences is exactly what our team has been discussing. Great read!</p>
+                        <button class="art-comment-reply">Reply</button>
+                      </div>
+                    </div>
+                    
+                    <!-- Comment 2 -->
+                    <div class="art-comment-item">
+                      <img src="assets/imgs/logo/favicon.png" alt="User" class="art-comment-avatar" style="filter: hue-rotate(90deg);">
+                      <div class="art-comment-content">
+                        <div class="art-comment-header">
+                          <h4 class="art-comment-name">Elena Rostova</h4>
+                          <span class="art-comment-date">5 hours ago</span>
+                        </div>
+                        <p class="art-comment-text">I love the perspective on context being the new canvas. It completely changes how we should approach accessibility in design systems.</p>
+                        <button class="art-comment-reply">Reply</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="art-comment-form-wrap">
+                    <h3 class="art-comments-title">Leave a Reply</h3>
+                    <form class="art-comment-form" id="artCommentForm">
+                      <div class="row g-4">
+                        <div class="col-md-6">
+                          <input type="text" class="art-comment-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6">
+                          <input type="email" class="art-comment-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="col-12">
+                          <textarea class="art-comment-textarea" placeholder="Share your thoughts..." rows="5" required></textarea>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="rr-btn hover-bg-theme">
+                            <span class="btn-wrap">
+                              <span class="text-one">Post Comment</span>
+                              <span class="text-two">Post Comment</span>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==================== END COMMENTS ==================== -->
+
+        <!-- ==================== RELATED ARTICLES ==================== -->
+        <section class="art-related-section">
+          <div class="container large">
+            
+            <div class="art-grid-header art-reveal-up">
+              <div>
+                <div class="art-section-label">
+                  <span class="art-section-label-line"></span>
+                  <span>Continue Reading</span>
+                </div>
+                <h2 class="art-trending-title">Related <span class="art-accent">Articles</span></h2>
+              </div>
+            </div>
+
+            <div class="swiper art-related-swiper art-reveal-up" style="--delay:0.15s">
+              <div class="swiper-wrapper">
+              
+                <!-- Related Card 1 -->
+                <div class="swiper-slide">
+                  <article class="art-card">
+                    <a href="article-details.html" class="art-card-link">
+                      <div class="art-card-thumb">
+                        <img src="assets/imgs/articles/article-card-2.png" alt="Article 1" class="art-card-img">
+                        <div class="art-card-overlay"></div>
+                        <span class="art-card-cat-badge">UX / Product</span>
+                        <div class="art-card-hover-cta">
+                          <span>Read</span>
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </div>
+                      </div>
+                      <div class="art-card-body">
+                        <div class="art-card-meta">
+                          <span class="art-card-author">Sarah K.</span>
+                          <span class="art-card-sep">·</span>
+                          <span class="art-card-date">Jun 25, 2026</span>
+                        </div>
+                        <h3 class="art-card-title">Designing for emotion: why feeling comes before function in great UX</h3>
+                        <p class="art-card-excerpt">Users don't remember interfaces — they remember how they felt. Here's how emotion-first design transforms products.</p>
+                        <div class="art-card-footer">
+                          <div class="art-card-tags">
+                            <span class="art-tag">UX</span>
+                            <span class="art-tag">Psychology</span>
+                          </div>
+                          <div class="art-card-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+
+                <!-- Related Card 2 -->
+                <div class="swiper-slide">
+                  <article class="art-card">
+                    <a href="article-details.html" class="art-card-link">
+                      <div class="art-card-thumb">
+                        <img src="assets/imgs/articles/article-card-3.webp" alt="Article 2" class="art-card-img">
+                        <div class="art-card-overlay"></div>
+                        <span class="art-card-cat-badge">Branding</span>
+                        <div class="art-card-hover-cta">
+                          <span>Read</span>
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </div>
+                      </div>
+                      <div class="art-card-body">
+                        <div class="art-card-meta">
+                          <span class="art-card-author">Mark D.</span>
+                          <span class="art-card-sep">·</span>
+                          <span class="art-card-date">Jun 20, 2026</span>
+                        </div>
+                        <h3 class="art-card-title">Brand archetypes decoded: finding the personality your business was born to own</h3>
+                        <p class="art-card-excerpt">From the Hero to the Sage, discover how aligning your brand with a core archetype creates authentic connections.</p>
+                        <div class="art-card-footer">
+                          <div class="art-card-tags">
+                            <span class="art-tag">Brand</span>
+                            <span class="art-tag">Identity</span>
+                          </div>
+                          <div class="art-card-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+
+                <!-- Related Card 3 -->
+                <div class="swiper-slide">
+                  <article class="art-card">
+                    <a href="article-details.html" class="art-card-link">
+                      <div class="art-card-thumb">
+                        <img src="assets/imgs/articles/article-card-5.webp" alt="Article 3" class="art-card-img">
+                        <div class="art-card-overlay"></div>
+                        <span class="art-card-cat-badge">Design</span>
+                        <div class="art-card-hover-cta">
+                          <span>Read</span>
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </div>
+                      </div>
+                      <div class="art-card-body">
+                        <div class="art-card-meta">
+                          <span class="art-card-author">Tom A.</span>
+                          <span class="art-card-sep">·</span>
+                          <span class="art-card-date">Jun 10, 2026</span>
+                        </div>
+                        <h3 class="art-card-title">White space is power: the counterintuitive secret of truly premium design</h3>
+                        <p class="art-card-excerpt">The most expensive brands in the world share one design principle: they leave room to breathe. Here is why.</p>
+                        <div class="art-card-footer">
+                          <div class="art-card-tags">
+                            <span class="art-tag">Design</span>
+                            <span class="art-tag">Luxury</span>
+                          </div>
+                          <div class="art-card-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+
+              </div>
+              <!-- Swiper Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+        </section>
+        <!-- ==================== END RELATED ==================== -->
+
+        <!-- ==================== NEWSLETTER ==================== -->
+        <section class="art-newsletter-section">
+          <div class="container large">
+            <div class="art-newsletter-inner art-reveal-up">
+              <div class="art-newsletter-glow"></div>
+              <div class="art-newsletter-content">
+                <div class="art-newsletter-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                </div>
+                <h2 class="art-newsletter-title">Stay <span class="art-accent">Ahead</span> of the Curve</h2>
+                <p class="art-newsletter-text">
+                  Get our best articles, design insights &amp; creative strategies delivered straight to your inbox — every Tuesday. No fluff, just pure value.
+                </p>
+                <div class="art-newsletter-perks">
+                  <span><i class="fas fa-check"></i> Weekly curated insights</span>
+                  <span><i class="fas fa-check"></i> Exclusive case studies</span>
+                  <span><i class="fas fa-check"></i> Unsubscribe anytime</span>
+                </div>
+                <form class="art-newsletter-form" id="artNewsletterForm">
+                  <div class="art-newsletter-field">
+                    <input type="email" placeholder="Enter your email address" class="art-newsletter-input" id="artEmailInput" required>
+                    <button type="submit" class="art-newsletter-btn">
+                      <span class="art-nl-btn-text">Subscribe</span>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                  </div>
+                  <div class="art-newsletter-success" id="artNewsletterSuccess">
+                    <i class="fas fa-check-circle"></i>
+                    <span>You're in! Welcome to the inner circle 🎉</span>
+                  </div>
+                </form>
+                <p class="art-newsletter-privacy">By subscribing you agree to our <a href="contact.html">Privacy Policy</a>. We respect your inbox.</p>
+              </div>
+              <div class="art-newsletter-visual">
+                <div class="art-nl-visual-ring art-nl-ring-1"></div>
+                <div class="art-nl-visual-ring art-nl-ring-2"></div>
+                <div class="art-nl-visual-ring art-nl-ring-3"></div>
+                <div class="art-nl-visual-center">
+                  <svg viewBox="0 0 64 64" fill="none">
+                    <rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 20l24 16 24-16" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==================== END NEWSLETTER ==================== -->
+
+        <!-- ==================== CTA BANNER ==================== -->
+        <section class="art-cta-section">
+          <div class="art-cta-inner">
+            <div class="art-cta-bg-text">REDOX</div>
+            <div class="container large">
+              <div class="art-cta-content art-reveal-up">
+                <p class="art-cta-label">Ready to collaborate?</p>
+                <h2 class="art-cta-title">
+                  Let's build something <br>
+                  <a href="contact.html" class="art-cta-link">
+                    <span class="art-cta-link-text">extraordinary</span>
+                    <span class="art-cta-link-arrow">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                  </a>
+                </h2>
+                <p class="art-cta-sub">Join 120+ brands that trusted us with their vision.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==================== END CTA ==================== -->
+
+      </main>
+
+      <!-- footer area start -->
+       <footer class="footer-area">
+                <div class="container large">
+                    <div class="footer-top-inner">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="assets/imgs/logo/logo-2.png" alt="site-logo"></a>
+                        </div>
+                        <div class="info-text">
+                            <div class="text-wrapper">
+                                <p class="text">Redox is a startup digital agency of design, development and marketing that works friendly with global client</p>
+                            </div>
+                            <div class="info-link">
+                                <a href="mailto:info@redox.com">info@redox.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-widget-wrapper-box">
+                        <div class="footer-widget-wrapper">
+                            <div class="footer-widget-box newsletter">
+                                <form action="#" class="subscribe-form">
+                                    <div class="input-field">
+                                        <input type="email" placeholder="Enter your email">
+                                        <button type="submit" class="subscribe-btn"><img src="assets/imgs/icon/icon-1.webp"
+                        alt="image"></button>
+                                    </div>
+                                </form>
+                                <div class="subscription-text">
+                                    <div class="text-wrapper">
+                                        <p class="text">By subscribing you agree with our
+                                            <a href="contact.html">Privacy Policy</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-widget-box">
+                                <h2 class="title">Company</h2>
+                                <ul class="footer-nav-list">
+                                    <li><a href="contact.html">agency</a></li>
+                                    <li><a href="contact.html">Solutions</a></li>
+                                    <li><a href="contact.html">Community</a></li>
+                                    <li><a href="contact.html">Work</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-widget-box">
+                                <h2 class="title">Social</h2>
+                                <ul class="footer-nav-list">
+                                    <li><a href="contact.html">Facebook</a></li>
+                                    <li><a href="contact.html">Twitter</a></li>
+                                    <li><a href="contact.html">Dribbble</a></li>
+                                    <li><a href="contact.html">Instagram</a></li>
+                                    <li><a href="contact.html">Awwwards</a></li>
+                                    <li><a href="contact.html">YouTube</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-widget-box">
+                                <h2 class="title">Office</h2>
+                                <ul class="footer-nav-list">
+                                    <li><a href="contact.html">New York</a></li>
+                                    <li><a href="contact.html">Toronto</a></li>
+                                    <li><a href="contact.html">Berlin</a></li>
+                                    <li><a href="contact.html">London</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <div class="copyright-area-inner">
+                        <div class="copyright-text">
+                            <p class="text">© 2026 Ragaie. All right reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+      <!-- footer area end -->
+
+    </div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery-3.7.1.min.js"></script>
+  <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.magnific-popup.min.js"></script>
+  <script src="assets/vendor/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="assets/vendor/ScrollSmoother.min.js"></script>
+  <script src="assets/vendor/ScrollToPlugin.min.js"></script>
+  <script src="assets/vendor/SplitText.min.js"></script>
+  <script src="assets/vendor/TextPlugin.js"></script>
+  <script src="assets/vendor/customEase.js"></script>
+  <script src="assets/vendor/Flip.min.js"></script>
+  <script src="assets/vendor/jquery.meanmenu.min.js"></script>
+  <script src="assets/vendor/backToTop.js"></script>
+  <script src="assets/vendor/matter.js"></script>
+  <script src="assets/vendor/throwable.js"></script>
+  <script src="assets/js/magiccursor.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js?v=1.0"></script>
+
+  <!-- Article Details Page JS -->
+  <script>
+  (function() {
+    'use strict';
+
+    /* ---- Reading Progress Bar ---- */
+    function initReadingBar() {
+      var bar = document.getElementById('artReadingBar');
+      if (!bar) return;
+      window.addEventListener('scroll', function() {
+        var scrollTop = window.scrollY;
+        var docH = document.documentElement.scrollHeight - window.innerHeight;
+        var pct = docH > 0 ? (scrollTop / docH) * 100 : 0;
+        bar.style.width = Math.min(pct, 100) + '%';
+      }, { passive: true });
+    }
+
+    /* ---- Parallax on hero image ---- */
+    function initHeroParallax() {
+      var img = document.querySelector('.art-det-hero-img');
+      if (!img) return;
+      window.addEventListener('scroll', function() {
+        var scrolled = window.scrollY;
+        img.style.transform = 'translateY(' + (scrolled * 0.18) + 'px) scale(1.06)';
+      }, { passive: true });
+    }
+
+    /* ---- Intersection Observer for reveal animations ---- */
+    function initRevealAnimations() {
+      var revealEls = document.querySelectorAll('.art-reveal-up, .art-reveal-card');
+      if (!('IntersectionObserver' in window)) {
+        revealEls.forEach(function(el) { el.classList.add('revealed'); });
+        return;
+      }
+      var io = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var el = entry.target;
+            var delay = parseFloat(el.style.getPropertyValue('--delay')) || 0;
+            setTimeout(function() {
+              el.classList.add('revealed');
+            }, delay * 1000);
+            io.unobserve(el);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      revealEls.forEach(function(el) { io.observe(el); });
+    }
+
+    /* ---- Newsletter form ---- */
+    function initNewsletter() {
+      var form = document.getElementById('artNewsletterForm');
+      var success = document.getElementById('artNewsletterSuccess');
+      if (!form || !success) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        success.classList.add('visible');
+        var field = form.querySelector('.art-newsletter-field');
+        if (field) field.style.display = 'none';
+      });
+    }
+
+    /* ---- Comment form ---- */
+    function initCommentForm() {
+      var form = document.getElementById('artCommentForm');
+      if (!form) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        form.reset();
+        var btn = form.querySelector('button[type="submit"]');
+        if (btn) {
+          btn.style.opacity = '0.6';
+          setTimeout(function() { btn.style.opacity = ''; }, 1500);
+        }
+      });
+    }
+
+    /* ---- Card hover tilt ---- */
+    function initCardTilt() {
+      var cards = document.querySelectorAll('.art-card');
+      cards.forEach(function(card) {
+        card.addEventListener('mousemove', function(e) {
+          var rect = card.getBoundingClientRect();
+          var x = (e.clientX - rect.left) / rect.width - 0.5;
+          var y = (e.clientY - rect.top) / rect.height - 0.5;
+          card.style.transform = 'perspective(900px) rotateY(' + (x * 5) + 'deg) rotateX(' + (-y * 5) + 'deg) translateY(-5px)';
+        });
+        card.addEventListener('mouseleave', function() {
+          card.style.transform = '';
+        });
+      });
+    }
+
+    /* ---- Related Swiper ---- */
+    function initRelatedSwiper() {
+      var el = document.querySelector('.art-related-swiper');
+      if (!el) return;
+      new Swiper('.art-related-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 24,
+        grabCursor: true,
+        pagination: {
+          el: '.art-related-swiper .swiper-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          640:  { slidesPerView: 1.2, spaceBetween: 20 },
+          768:  { slidesPerView: 2,   spaceBetween: 24 },
+          1024: { slidesPerView: 3,   spaceBetween: 28 },
+        },
+      });
+    }
+
+    /* ---- Header scroll shadow ---- */
+    function initHeaderScroll() {
+      var header = document.querySelector('.art-header');
+      if (!header) return;
+      window.addEventListener('scroll', function() {
+        header.classList.toggle('scrolled', window.scrollY > 80);
+      }, { passive: true });
+    }
+
+    /* ---- Init all ---- */
+    function init() {
+      initReadingBar();
+      initHeroParallax();
+      initRevealAnimations();
+      initNewsletter();
+      initCommentForm();
+      initCardTilt();
+      initRelatedSwiper();
+      initHeaderScroll();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+  </script>
+
+</body>
+</html>
