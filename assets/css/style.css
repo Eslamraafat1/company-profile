@@ -54,16 +54,16 @@ work page css
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 :root {
-    --primary: #111111;
-    --secondary: #555555;
+    --primary: #192939;
+    --secondary: f1f0f1;
     --border: rgba(17, 17, 17, 0.1);
     --bg: #111111;
-    --theme: #FF6A3A;
+    --theme: #ef6c24;
     --black: #111111;
     --black-2: #999999;
     --white: #FFFFFF;
     --white-2: #999999;
-    --action: #FF6A3A;
+    --action: #ef6c24;
 }
 
 :root .dark {
@@ -4657,10 +4657,10 @@ video.video-area {
 }
 
 .work-area .section-header .text-wrapper .text {
-    font-family: var(--font_dmsans);
-    font-size: 18px;
+  font-family: var(--font_dmsans);
+    font-size: 38px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 18px;
     color: var(--primary);
 }
